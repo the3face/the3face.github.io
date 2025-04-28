@@ -1,0 +1,71 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #28095f; 
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+}
+
+
+header {
+    background-color: #0c3d83;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 2px solid #2c2727;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Main content */
+main {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.info {
+    margin-bottom: 4rem;
+    text-align: center;
+    background-color: #0c3d83;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.info h2 {
+    color: #f9fafc;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Image gallery style */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.images img {
+    width: 100%;
+    max-width: 1024px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
